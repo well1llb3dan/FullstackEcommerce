@@ -5,15 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1736025636621,
-      "tag": "0000_fast_gargoyle",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1736035873926,
-      "tag": "0001_pale_sandman",
+      "when": 1736063514446,
+      "tag": "0000_perpetual_warpath",
       "breakpoints": true
     }
   ]

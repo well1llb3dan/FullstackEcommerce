@@ -32,7 +32,7 @@ const verifyTokenHelper = (
       res.status(403).send("Access Denied");
       return;
     }
-    req.userId = decoded.userId;
+    (req as any).userId = decoded.userId;
     next();
   } catch (error) {
     console.error(`verifyTokenHelper - Error: ${(error as Error).message}`);
