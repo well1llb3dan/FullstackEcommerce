@@ -7,13 +7,15 @@ import {
   deleteProduct,
 } from "./productsController";
 
+import { verifyToken, verifyManager } from "../../middleware/authMiddleware";
+
 // Product Routes
 const router = Router();
 
-router.get("/", listProducts);
-router.get("/:id", getProductById);
-router.post("/", createProduct);
-router.put("/:id", updateProduct);
-router.delete("/:id", deleteProduct);
+router.get("/", verifyToken, listProducts);
+router.get("/:id", verifyToken, getProductById);
+router.post("/", verifyToken, verifyManager, createProduct);
+router.put("/:id", verifyToken, verifyManager, updateProduct);
+router.delete("/:id", verifyToken, verifyManager, deleteProduct);
 
 export default router;

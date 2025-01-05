@@ -1,21 +1,96 @@
 import { Request, Response } from "express";
+import { db } from "../../db/index";
+import { productsTable } from "../../db/productsSchema";
+import { eq } from "drizzle-orm";
 
-export function listProducts(req: Request, res: Response) {
-  res.send("listProducts");
-}
+export const listProducts = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const products = await db.select().from(productsTable);
+    res.json(products);
+  } catch (error) {
+    res.status(500).send("Failed to list products");
+  }
+};
 
-export function getProductById(req: Request, res: Response) {
-  res.send("getProductById");
-}
+export const getProductById = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const { id } = req.params;
+    const [product] = await db
+      .select()
+      .from(productsTable)
+      .where(eq(productsTable.id, Number(id)));
 
-export function createProduct(req: Request, res: Response) {
-  res.send("creatProduct");
-}
+    if (!product) {
+      res.status(404).send("Product not found");
+    } else {
+      res.json(product);
+    }
+  } catch (error) {
+    res.status(500).send("Failed to get product by id");
+  }
+};
 
-export function updateProduct(req: Request, res: Response) {
-  res.send("updateProduct");
-}
+export const createProduct = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const [product] = await db
+      .insert(productsTable)
+      .values(req.body)
+      .returning();
 
-export function deleteProduct(req: Request, res: Response) {
-  res.send("deleteProduct");
-}
+    res.status(201).json(product);
+  } catch (error) {
+    res.status(500).send("Failed to create product");
+  }
+};
+
+export const updateProduct = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const id = Number(req.params.id);
+    const updatedFields = req.body;
+
+    const [product] = await db
+      .update(productsTable)
+      .set(updatedFields)
+      .where(eq(productsTable.id, id))
+      .returning();
+    if (product) {
+      res.json(product);
+    } else {
+      res.status(404).send("Product not found");
+    }
+  } catch (error) {
+    res.status(500).send("Failed to update products");
+  }
+};
+
+export const deleteProduct = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const id = Number(req.params.id);
+    const [deletedProduct] = await db
+      .delete(productsTable)
+      .where(eq(productsTable.id, id))
+      .returning();
+    if (deletedProduct) {
+      res.status(204).send();
+    } else {
+      res.status(404).send("Product not found");
+    }
+  } catch (error) {
+    res.status(500).send("Failed to delete products");
+  }
+};
