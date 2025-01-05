@@ -1,8 +1,8 @@
 import { Router, Request, Response } from "express";
 import bodyParser from "body-parser";
-import { usersTable } from "../../db/usersSchema";
+import { usersTable } from "../../db/usersSchema.js";
 import bcrypt from "bcryptjs";
-import { db } from "../../db"; // Ensure you have the correct path to your db module
+import { db } from "../../db/index.js"; // Ensure you have the correct path to your db module
 import { eq } from "drizzle-orm";
 import jwt from "jsonwebtoken";
 

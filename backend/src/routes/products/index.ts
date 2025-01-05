@@ -5,9 +5,9 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
-} from "./productsController";
+} from "./productsController.js";
 
-import { verifyToken, verifyManager } from "../../middleware/authMiddleware";
+import { verifyToken, verifyManager } from "../../middleware/authMiddleware.js";
 
 // Product Routes
 const router = Router();
