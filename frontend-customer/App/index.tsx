@@ -1,16 +1,11 @@
-import { Text, View, FlatList } from "react-native";
-import products from "../assets/products.json";
-import ProductListItem from "../components/productListItem";
+import StoreScreen from "./store";
+import CartScreen from "./cart";
+import LoginScreen from "./login";
 
-const HomeScreen = () => {
-  return (
-    <View style={{ flex: 1, padding: 10 }}>
-      <FlatList
-        data={products}
-        renderItem={({ item }) => <ProductListItem product={item} />}
-      />
-    </View>
-  );
+const App = () => {
+  return <LoginScreen />;
+  return <StoreScreen />;
+  return <CartScreen />;
 };
 
-export default HomeScreen;
+export default App;

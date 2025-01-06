@@ -2,16 +2,15 @@
   {
     "id": 1,
     "category": "flower",
-    "brand": "Connected Cannabis",
-    "style": "Indoor Premium",
-    "description": "Hand-trimmed, small-batch indoor flower with exceptional terpene profile",
-    "image": "connected_premium_flower.jpg",
+    "description": "Premium indoor-grown flower",
+    "image": "flower.gelonade.png",
     "strains": [
       {
-        "name": "Gelato 41",
+        "name": "Gelonade",
         "type": "hybrid",
-        "stock": 150,
-        "price": 25.0,
+        "image": "flower.gelonade.png",
+        "stock": 250,
+        "price": 20.0,
         "sale": 0
       }
     ],
@@ -21,16 +20,15 @@
   {
     "id": 2,
     "category": "flower",
-    "brand": "Alien Labs",
-    "style": "Premium Flower",
-    "description": "Top-shelf flower known for potency and flavor",
-    "image": "alien_labs_flower.jpg",
+    "description": "Small-batch craft flower",
+    "image": "flower.bluedream.png",
     "strains": [
       {
-        "name": "Area 41",
+        "name": "Blue Dream",
         "type": "hybrid",
-        "stock": 100,
-        "price": 25.0,
+        "image": "flower.bluedream.png",
+        "stock": 200,
+        "price": 20.0,
         "sale": 1
       }
     ],
@@ -40,16 +38,15 @@
   {
     "id": 3,
     "category": "flower",
-    "brand": "Cookies",
-    "style": "Designer Flower",
-    "description": "Premium genetics with exceptional bag appeal",
-    "image": "cookies_flower.jpg",
+    "description": "High-potency premium flower",
+    "image": "flower.ogkush.png",
     "strains": [
       {
-        "name": "Georgia Pie",
+        "name": "OG Kush",
         "type": "hybrid",
-        "stock": 120,
-        "price": 25.0,
+        "image": "flower.ogkush.png",
+        "stock": 180,
+        "price": 20.0,
         "sale": 0
       }
     ],
@@ -60,29 +57,32 @@
     "id": 4,
     "category": "wax",
     "brand": "Raw Garden",
-    "style": "Live Resin",
-    "description": "Fresh-frozen live resin extracted for maximum terpene preservation",
-    "image": "raw_garden_live_resin.jpg",
+    "style": "LiveResin",
+    "description": "Fresh-frozen live resin concentrates",
+    "image": "wax.rawgarden.liveresin.png",
     "strains": [
       {
-        "name": "Chem Valley",
+        "name": "Cosmic Charm",
         "type": "sativa",
-        "stock": 75,
-        "price": 25.0,
+        "image": "wax.rawgarden.liveresin.cosmiccharm.png",
+        "stock": 100,
+        "price": 20.0,
         "sale": 2
       },
       {
-        "name": "Skywalker OG",
+        "name": "Purple Punch",
         "type": "indica",
-        "stock": 60,
-        "price": 25.0,
+        "image": "wax.rawgarden.liveresin.purplepunch.png",
+        "stock": 75,
+        "price": 20.0,
         "sale": 0
       },
       {
-        "name": "Punch Breath",
+        "name": "Wedding Cake",
         "type": "hybrid",
-        "stock": 45,
-        "price": 25.0,
+        "image": "wax.rawgarden.liveresin.weddingcake.png",
+        "stock": 85,
+        "price": 20.0,
         "sale": 3
       }
     ],
@@ -92,24 +92,26 @@
   {
     "id": 5,
     "category": "wax",
-    "brand": "710 Labs",
-    "style": "Water Hash",
-    "description": "Solventless ice water hash with full spectrum effects",
-    "image": "710_labs_hash.jpg",
+    "brand": "710Labs",
+    "style": "Rosin",
+    "description": "Solventless hash rosin",
+    "image": "wax.710labs.rosin.png",
     "strains": [
       {
         "name": "Rainbow Belts",
         "type": "hybrid",
-        "stock": 40,
-        "price": 25.0,
+        "image": "wax.710labs.rosin.rainbowbelts.png",
+        "stock": 50,
+        "price": 20.0,
         "sale": 0
       },
       {
-        "name": "Papaya",
+        "name": "Z Cubed",
         "type": "indica",
-        "stock": 35,
-        "price": 25.0,
-        "sale": 4
+        "image": "wax.710labs.rosin.zcubed.png",
+        "stock": 45,
+        "price": 20.0,
+        "sale": 2
       }
     ],
     "createdAt": "2024-03-15T12:00:00Z",
@@ -117,25 +119,35 @@
   },
   {
     "id": 6,
-    "category": "wax",
-    "brand": "Bear Labs",
-    "style": "Live Rosin",
-    "description": "Premium solventless concentrate made from fresh frozen material",
-    "image": "bear_labs_rosin.jpg",
+    "category": "vape",
+    "brand": "Select",
+    "style": "Elite",
+    "description": "Premium distillate cartridges",
+    "image": "vape.select.elite.png",
     "strains": [
       {
-        "name": "MAC 1",
+        "name": "Blue Dream",
         "type": "hybrid",
-        "stock": 50,
-        "price": 25.0,
+        "image": "vape.select.elite.bluedream.png",
+        "stock": 150,
+        "price": 20.0,
+        "sale": 1
+      },
+      {
+        "name": "GDP",
+        "type": "indica",
+        "image": "vape.select.elite.gdp.png",
+        "stock": 125,
+        "price": 20.0,
         "sale": 0
       },
       {
-        "name": "GMO Cookies",
-        "type": "indica",
-        "stock": 45,
-        "price": 25.0,
-        "sale": 2
+        "name": "Jack Herer",
+        "type": "sativa",
+        "image": "vape.select.elite.jackherer.png",
+        "stock": 140,
+        "price": 20.0,
+        "sale": 3
       }
     ],
     "createdAt": "2024-03-15T12:00:00Z",
@@ -144,31 +156,26 @@
   {
     "id": 7,
     "category": "vape",
-    "brand": "Select",
-    "style": "Elite Live Resin",
-    "description": "Premium live resin cartridges with cannabis-derived terpenes",
-    "image": "select_elite_cart.jpg",
+    "brand": "STIIIZY",
+    "style": "Pod",
+    "description": "Premium cannabis pods",
+    "image": "vape.stiiizy.pod.png",
     "strains": [
       {
-        "name": "Blue Dream",
-        "type": "hybrid",
-        "stock": 200,
-        "price": 25.0,
-        "sale": 0
-      },
-      {
-        "name": "Wedding Cake",
-        "type": "hybrid",
-        "stock": 180,
-        "price": 25.0,
-        "sale": 3
-      },
-      {
-        "name": "Maui Wowie",
+        "name": "Strawberry Cough",
         "type": "sativa",
-        "stock": 150,
-        "price": 25.0,
+        "image": "vape.stiiizy.pod.strawberrycough.png",
+        "stock": 200,
+        "price": 20.0,
         "sale": 0
+      },
+      {
+        "name": "King Louis XIII",
+        "type": "indica",
+        "image": "vape.stiiizy.pod.kinglouis.png",
+        "stock": 180,
+        "price": 20.0,
+        "sale": 2
       }
     ],
     "createdAt": "2024-03-15T12:00:00Z",
@@ -176,39 +183,35 @@
   },
   {
     "id": 8,
-    "category": "vape",
-    "brand": "STIIIZY",
-    "style": "Premium Pod",
-    "description": "Cannabis-derived live resin pods with authentic strain profiles",
-    "image": "stiiizy_pod.jpg",
+    "category": "edible",
+    "brand": "Wyld",
+    "style": "Gummy",
+    "description": "Real fruit cannabis gummies",
+    "image": "edible.wyld.gummy.png",
     "strains": [
       {
-        "name": "Strawberry Cough",
-        "type": "sativa",
-        "stock": 175,
-        "price": 25.0,
-        "sale": 2
-      },
-      {
-        "name": "Purple Punch",
+        "name": "Indica Raspberry",
         "type": "indica",
-        "stock": 160,
-        "price": 25.0,
+        "image": "edible.wyld.gummy.indica-raspberry.png",
+        "stock": 300,
+        "price": 20.0,
+        "sale": 1
+      },
+      {
+        "name": "Sativa Lemon",
+        "type": "sativa",
+        "image": "edible.wyld.gummy.sativa-lemon.png",
+        "stock": 280,
+        "price": 20.0,
         "sale": 0
       },
       {
-        "name": "Birthday Cake",
+        "name": "Hybrid Pomegranate",
         "type": "hybrid",
-        "stock": 140,
-        "price": 25.0,
-        "sale": 4
-      },
-      {
-        "name": "OG Kush",
-        "type": "hybrid",
-        "stock": 130,
-        "price": 25.0,
-        "sale": 0
+        "image": "edible.wyld.gummy.hybrid-pomegranate.png",
+        "stock": 250,
+        "price": 20.0,
+        "sale": 2
       }
     ],
     "createdAt": "2024-03-15T12:00:00Z",
@@ -217,85 +220,34 @@
   {
     "id": 9,
     "category": "edible",
-    "brand": "Wyld",
-    "style": "Gummies",
-    "description": "Real fruit gummies made with natural ingredients and full spectrum extract",
-    "image": "wyld_gummies.jpg",
-    "strains": [
-      {
-        "name": "Northern Lights",
-        "type": "indica",
-        "stock": 300,
-        "price": 25.0,
-        "sale": 0
-      },
-      {
-        "name": "Green Crack",
-        "type": "sativa",
-        "stock": 280,
-        "price": 25.0,
-        "sale": 5
-      },
-      {
-        "name": "Gelato",
-        "type": "hybrid",
-        "stock": 250,
-        "price": 25.0,
-        "sale": 0
-      },
-      {
-        "name": "Do-Si-Dos",
-        "type": "indica",
-        "stock": 220,
-        "price": 25.0,
-        "sale": 3
-      }
-    ],
-    "createdAt": "2024-03-15T12:00:00Z",
-    "modifiedAt": "2024-03-15T12:00:00Z"
-  },
-  {
-    "id": 10,
-    "category": "edible",
     "brand": "Kiva",
     "style": "Chocolate",
-    "description": "Premium chocolate bars made with sustainably-sourced cacao",
-    "image": "kiva_chocolate.jpg",
+    "description": "Premium cannabis-infused chocolate",
+    "image": "edible.kiva.chocolate.png",
     "strains": [
       {
-        "name": "Jack Herer",
-        "type": "sativa",
-        "stock": 250,
-        "price": 25.0,
+        "name": "Dark Blueberry",
+        "type": "indica",
+        "image": "edible.kiva.chocolate.darkblueberry.png",
+        "stock": 150,
+        "price": 20.0,
         "sale": 0
       },
       {
-        "name": "Bubba Kush",
-        "type": "indica",
-        "stock": 230,
-        "price": 25.0,
-        "sale": 4
-      },
-      {
-        "name": "Zkittlez",
-        "type": "indica",
-        "stock": 210,
-        "price": 25.0,
-        "sale": 0
-      },
-      {
-        "name": "Durban Poison",
+        "name": "Milk Vanilla Chai",
         "type": "sativa",
-        "stock": 200,
-        "price": 25.0,
-        "sale": 2
-      },
-      {
-        "name": "GSC",
-        "type": "hybrid",
-        "stock": 180,
-        "price": 25.0,
+        "image": "edible.kiva.chocolate.vanillachai.png",
+        "stock": 140,
+        "price": 20.0,
         "sale": 3
+      },
+      {
+        "name": "Sea Salt Dark",
+        "type": "hybrid",
+        "image": "edible.kiva.chocolate.seasalt.png",
+        "stock": 160,
+        "price": 20.0,
+        "sale": 0
       }
     ],
     "createdAt": "2024-03-15T12:00:00Z",
