@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "category": "flower",
+    "brand": "Connected Cannabis",
+    "style": "Indoor Premium",
+    "description": "Hand-trimmed, small-batch indoor flower with exceptional terpene profile",
+    "image": "connected_premium_flower.jpg",
+    "strains": [
+      {
+        "name": "Gelato 41",
+        "type": "hybrid",
+        "stock": 150,
+        "price": 25.0,
+        "sale": 0
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 2,
+    "category": "flower",
+    "brand": "Alien Labs",
+    "style": "Premium Flower",
+    "description": "Top-shelf flower known for potency and flavor",
+    "image": "alien_labs_flower.jpg",
+    "strains": [
+      {
+        "name": "Area 41",
+        "type": "hybrid",
+        "stock": 100,
+        "price": 25.0,
+        "sale": 1
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "category": "flower",
+    "brand": "Cookies",
+    "style": "Designer Flower",
+    "description": "Premium genetics with exceptional bag appeal",
+    "image": "cookies_flower.jpg",
+    "strains": [
+      {
+        "name": "Georgia Pie",
+        "type": "hybrid",
+        "stock": 120,
+        "price": 25.0,
+        "sale": 0
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 4,
+    "category": "wax",
+    "brand": "Raw Garden",
+    "style": "Live Resin",
+    "description": "Fresh-frozen live resin extracted for maximum terpene preservation",
+    "image": "raw_garden_live_resin.jpg",
+    "strains": [
+      {
+        "name": "Chem Valley",
+        "type": "sativa",
+        "stock": 75,
+        "price": 25.0,
+        "sale": 2
+      },
+      {
+        "name": "Skywalker OG",
+        "type": "indica",
+        "stock": 60,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Punch Breath",
+        "type": "hybrid",
+        "stock": 45,
+        "price": 25.0,
+        "sale": 3
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 5,
+    "category": "wax",
+    "brand": "710 Labs",
+    "style": "Water Hash",
+    "description": "Solventless ice water hash with full spectrum effects",
+    "image": "710_labs_hash.jpg",
+    "strains": [
+      {
+        "name": "Rainbow Belts",
+        "type": "hybrid",
+        "stock": 40,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Papaya",
+        "type": "indica",
+        "stock": 35,
+        "price": 25.0,
+        "sale": 4
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 6,
+    "category": "wax",
+    "brand": "Bear Labs",
+    "style": "Live Rosin",
+    "description": "Premium solventless concentrate made from fresh frozen material",
+    "image": "bear_labs_rosin.jpg",
+    "strains": [
+      {
+        "name": "MAC 1",
+        "type": "hybrid",
+        "stock": 50,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "GMO Cookies",
+        "type": "indica",
+        "stock": 45,
+        "price": 25.0,
+        "sale": 2
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 7,
+    "category": "vape",
+    "brand": "Select",
+    "style": "Elite Live Resin",
+    "description": "Premium live resin cartridges with cannabis-derived terpenes",
+    "image": "select_elite_cart.jpg",
+    "strains": [
+      {
+        "name": "Blue Dream",
+        "type": "hybrid",
+        "stock": 200,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Wedding Cake",
+        "type": "hybrid",
+        "stock": 180,
+        "price": 25.0,
+        "sale": 3
+      },
+      {
+        "name": "Maui Wowie",
+        "type": "sativa",
+        "stock": 150,
+        "price": 25.0,
+        "sale": 0
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 8,
+    "category": "vape",
+    "brand": "STIIIZY",
+    "style": "Premium Pod",
+    "description": "Cannabis-derived live resin pods with authentic strain profiles",
+    "image": "stiiizy_pod.jpg",
+    "strains": [
+      {
+        "name": "Strawberry Cough",
+        "type": "sativa",
+        "stock": 175,
+        "price": 25.0,
+        "sale": 2
+      },
+      {
+        "name": "Purple Punch",
+        "type": "indica",
+        "stock": 160,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Birthday Cake",
+        "type": "hybrid",
+        "stock": 140,
+        "price": 25.0,
+        "sale": 4
+      },
+      {
+        "name": "OG Kush",
+        "type": "hybrid",
+        "stock": 130,
+        "price": 25.0,
+        "sale": 0
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 9,
+    "category": "edible",
+    "brand": "Wyld",
+    "style": "Gummies",
+    "description": "Real fruit gummies made with natural ingredients and full spectrum extract",
+    "image": "wyld_gummies.jpg",
+    "strains": [
+      {
+        "name": "Northern Lights",
+        "type": "indica",
+        "stock": 300,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Green Crack",
+        "type": "sativa",
+        "stock": 280,
+        "price": 25.0,
+        "sale": 5
+      },
+      {
+        "name": "Gelato",
+        "type": "hybrid",
+        "stock": 250,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Do-Si-Dos",
+        "type": "indica",
+        "stock": 220,
+        "price": 25.0,
+        "sale": 3
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "category": "edible",
+    "brand": "Kiva",
+    "style": "Chocolate",
+    "description": "Premium chocolate bars made with sustainably-sourced cacao",
+    "image": "kiva_chocolate.jpg",
+    "strains": [
+      {
+        "name": "Jack Herer",
+        "type": "sativa",
+        "stock": 250,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Bubba Kush",
+        "type": "indica",
+        "stock": 230,
+        "price": 25.0,
+        "sale": 4
+      },
+      {
+        "name": "Zkittlez",
+        "type": "indica",
+        "stock": 210,
+        "price": 25.0,
+        "sale": 0
+      },
+      {
+        "name": "Durban Poison",
+        "type": "sativa",
+        "stock": 200,
+        "price": 25.0,
+        "sale": 2
+      },
+      {
+        "name": "GSC",
+        "type": "hybrid",
+        "stock": 180,
+        "price": 25.0,
+        "sale": 3
+      }
+    ],
+    "createdAt": "2024-03-15T12:00:00Z",
+    "modifiedAt": "2024-03-15T12:00:00Z"
+  }
+]
